@@ -4,17 +4,17 @@ import {
   Bars3BottomRightIcon,
   XMarkIcon,
   BriefcaseIcon,
-  ComputerDesktopIcon
 } from "@heroicons/react/24/solid";
+
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <div className="bg-gradient-to-l from-lime-100 via-green-100 to-transparent px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+    <div className="bg-gradient-to-r from-green-100 via-lime-100 to-transparent px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div className="relative flex items-center justify-between">
         {/* Logo Section */}
         <Link to="/" className="inline-flex items-center">
-          <ComputerDesktopIcon className="h-8 w-6 text-cyan-600" />
+          <BriefcaseIcon className="h-8 w-6 text-emerald-500" />
           <span className="ml-2 text-2xl font-bold tracking-wide text-gray-800">
             Marketing Agency
           </span>
@@ -51,9 +51,10 @@ const Header = () => {
             </NavLink>
           </li>
         </ul>
-        <div className="bg-gradient-to-l hidden md:block via-green-500  from-lime-500  rounded-lg p-3 font-bold text-black">
+        <div className="bg-gradient-to-r hidden md:block from-orange-600 to-pink-600 text-black rounded-lg p-3 font-bold">
           <button>Star Applying</button>
         </div>
+       
 
         {/* Mobile Navbar Section */}
         <div className="md:hidden">
@@ -66,14 +67,14 @@ const Header = () => {
           </button>
           {isMenuOpen && (
             <div className="absolute top-0 left-0 w-full z-10">
-              <div className="p-5  border rounded shadow-sm">
+              <div className="p-5 bg-white border rounded shadow-sm">
                 {/* Logo & Button section */}
                 <div className="flex items-center justify-between mb-4">
                   <div>
                     <Link to="/" className="inline-flex items-center">
-                      <ComputerDesktopIcon className="h-6 w-6 text-cyan-600" />
+                      <BriefcaseIcon className="h-6 w-6 text-emerald-500" />
                       <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                      Marketing Agency
+                       Marketing Agency
                       </span>
                     </Link>
                   </div>
@@ -118,11 +119,14 @@ const Header = () => {
                         </Link>
                       </li>
                     </div>
-                    <div className="bg-gradient-to-r from-indigo-400 to-emerald-600 rounded-lg px-3  flex justify-center items-center font-bold">
+                    <div className="bg-gradient-to-r from-pink-600 to-orange-600 text-white rounded-lg px-3  flex justify-center items-center font-bold">
                       <button>Star Applying</button>
                     </div>
                   </ul>
                 </nav>
+
+              
+
               </div>
             </div>
           )}

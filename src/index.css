@@ -5,7 +5,9 @@
 .my-container{
   @apply px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20
 }
-
+.btn {
+  @apply inline-flex items-center shadow-md  bg-blue-400 hover:bg-blue-700 bg-gradient-to-r  from-indigo-400 to-purple-600 text-white rounded-lg p-3 font-bold;
+}
 .active{
   @apply font-bold tracking-wide text-cyan-600 transition-colors duration-200
 }

@@ -1,0 +1,26 @@
+[
+    {
+      "_id": 1,
+      "logo": "https://www.clipartmax.com/png/middle/294-2940294_free-business-and-finance-icons-reporting-icon.png",
+      "name": "Account & Financer",
+      "jobsAvailable": "250 Jobs Available"
+    },
+    {
+      "_id": 2,
+      "logo": "https://cdn-icons-png.flaticon.com/512/1875/1875720.png",
+      "name": "Creative Design",
+      "jobsAvailable": "200+ Jobs Available"
+    },
+    {
+      "_id": 3,
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBmcfXoGu1R3Y_CnqF_Jd5tC6GeY3_wD2Mww&usqp=CAU",
+      "name": "Marketing & Sales",
+      "jobsAvailable": "350 Jobs Available"
+    },
+    {
+      "_id": 4,
+      "logo": "https://cdn2.vectorstock.com/i/1000x1000/67/96/engineer-icon-profession-and-job-vector-33186796.jpg",
+      "name": "Engineering Job",
+      "jobsAvailable": "100+ Jobs Available"
+    }
+  ]
