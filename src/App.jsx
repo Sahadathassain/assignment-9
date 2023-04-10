@@ -2,7 +2,9 @@ import { useState } from 'react'
 
 
 import Header from './Components/Header/Header'
-import Dream from './Components/Dream/Dream'
+
+
+import { Outlet } from 'react-router-dom'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +13,8 @@ function App() {
     <div className="App">
     
      <Header></Header>
-     <Dream></Dream>
+     <Outlet></Outlet>
+     
     </div>
   )
 }

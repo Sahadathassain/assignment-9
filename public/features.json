@@ -1,0 +1,110 @@
+[
+    {
+      "id": 1,
+      "company_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxfcm3yMuGyhXRAjMJdefTIhkGrCZXKnRm5w&usqp=CAU",
+      "job_title": "Full stick Developer",
+      "company_name": "Web Developer",
+      "remote_or_onsite": "Onsite",
+      "location": "San Francisco, CA",
+      "fulltime_or_partTime": "Full-time",
+      "salary": "$80,000 - $100,000",
+      "job_description": "Example Company 1 is seeking a highly motivated and talented web developer to join our team...",
+      "job_responsibility": "- Design and develop web applications\n- Collaborate with cross-functional teams to define, design, and ship new features\n- Unit-test code for robustness, including edge cases, usability, and general reliability\n- Continuously discover, evaluate, and implement new technologies to maximize development efficiency\n- Participate in code reviews\n",
+      "educational_requirements": "Bachelor's degree in Computer Science or related field",
+      "experiences": "3+ years of experience in web development",
+      "contact_information": {
+        "phone": "+1 (123) 456-7890",
+        "email": "jobs@example.com"
+      }
+    },
+    {
+      "id": 2,
+      "company_logo": "https://e7.pngegg.com/pngimages/992/824/png-clipart-google-logo-google-search-doubleclick-end-year-text-logo.png",
+      "job_title": "Data Analyst",
+      "company_name": "Google LLC",
+      "remote_or_onsite": "Remote",
+      "location": "Dhaka, Bangladesh",
+      "fulltime_or_partTime": "Full-time",
+      "salary": "$70,000 - $90,000",
+      "job_description": "Example Company 2 is seeking a talented data analyst to join our team...",
+      "job_responsibility": "- Collect, analyze, and interpret data to provide insights and recommendations\n- Develop and maintain data models and dashboards\n- Collaborate with cross-functional teams to identify opportunities for data-driven decision making\n- Continuously improve data quality and accuracy\n",
+      "educational_requirements": "Bachelor's degree in Statistics, Mathematics, Computer Science or related field",
+      "experiences": "2+ years of experience in data analysis",
+      "contact_information": {
+        "phone": "+1 (123) 456-7890",
+        "email": "jobs@example.com"
+      }
+    },
+    {
+      "id": 3,
+      "company_logo": "https://vectorseek.com/wp-content/uploads/2022/10/Netflix-Red-Logo-Vector-730x730.jpg",
+      "job_title": "Sales Manager",
+      "company_name": "Netflix",
+      "remote_or_onsite": "Onsite",
+      "location": "Chicago, IL",
+      "fulltime_or_partTime": "Full-time",
+      "salary": "$90,000 - $110,000",
+      "job_description": "Example Company 3 is seeking a talented sales manager to join our team...",
+      "job_responsibility": "- Develop and implement sales strategies to achieve business objectives\n- Collaborate with internal teams to create and execute sales campaigns\n- Manage sales budgets and expenditures\n- Identify and pursue new sales opportunities\n- Train and manage sales staff\n",
+      "educational_requirements": "Bachelor's degree in Business, Marketing or related field",
+      "experiences": "5+ years of experience in sales",
+      "contact_information": {
+        "phone": "+1 (123) 456-7890",
+        "email": "jobs@example.com"
+      }
+    },
+    {
+      "id": 4,
+      "company_logo": "https://www.schmidtisblog.de/wp-content/uploads/2021/05/tesla-logo.webp",
+      "job_title": "Software Engineer",
+      "company_name": "Tesla",
+      "remote_or_onsite": "Remote",
+      "location": "Seattle, WA",
+      "fulltime_or_partTime": "Full-time",
+      "salary": "$90,000 - $120,000",
+      "job_description": "Example Company a unit of magnetic flux density in the meter-kilogram-second system equivalent to one weber per square meter.",
+      "job_responsibility": "- Design and develop software applications\n- Collaborate with cross-functional teams to define, design, and ship new features\n- Unit-test code for robustness, including edge cases, usability, and general reliability\n- Continuously discover, evaluate, and implement new technologies to maximize development efficiency\n- Participate in code reviews\n",
+      "educational_requirements": "Bachelor's degree in Computer Science or related field",
+      "experiences": "2+ years of experience in software development",
+      "contact_information": {
+        "phone": "+1 (123) 456-7890",
+        "email": "jobs@example.com"
+      }
+    },
+    {
+      "id": 5,
+      "company_logo": "https://static.vecteezy.com/system/resources/thumbnails/020/726/668/small/youtube-logo-on-black-background-madrid-spain-2022-free-photo.jpg",
+      "job_title": "YouTube self-employed",
+      "company_name": "YouTube",
+      "remote_or_onsite": "Onsite",
+      "location": "New York, NY",
+      "fulltime_or_partTime": "Full-time",
+      "salary": "$70,000 - $90,000",
+      "job_description": "Example Company 2 is seeking a talented marketing specialist to join our team...",
+      "job_responsibility": "- Develop and implement marketing strategies to promote products or services\n- Collaborate with internal teams to create and execute marketing campaigns\n- Analyze market trends and recommend changes to marketing strategies\n- Conduct market research to identify potential opportunities\n- Measure and report on the effectiveness of marketing campaigns\n",
+      "educational_requirements": "Bachelor's degree in Marketing or related field",
+      "experiences": "2+ years of experience in marketing",
+      "contact_information": {
+        "phone": "+1 (123) 456-7890",
+        "email": "jobs@example.com"
+      }
+    },
+    {
+      "id": 6,
+      "company_logo": "https://logolook.net/wp-content/uploads/2021/06/Google-Logo-19981.png",
+      "job_title": "Technical Database Engineer",
+      "company_name": "Google LLC",
+      "remote_or_onsite": "Onsite",
+      "location": "Seattle, WA",
+      "fulltime_or_partTime": "Full-time",
+      "salary": "$90,000 - $110,000 per year",
+      "job_description": "We are seeking a skilled Technical Database Engineer to design, develop, and maintain databases that support our mission-critical applications and systems.",
+      "job_responsibility": "- Design, develop, and maintain databases for mission-critical applications and systems\n- Ensure data accuracy, consistency, and security\n- Develop and maintain database performance monitoring, tuning, and optimization strategies\n- Collaborate with cross-functional teams to identify and prioritize features",
+      "educational_requirements": "Bachelor's degree in Computer Science, Software Engineering or related field",
+      "experiences": "5+ years of experience in database administration and development",
+      "contact_information": {
+        "phone": "123-456-7890",
+        "email": "jobs@acmecorp.com"
+      }
+    }
+  ]
