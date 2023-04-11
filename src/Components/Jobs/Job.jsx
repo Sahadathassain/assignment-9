@@ -1,6 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import JobCart from "./JobCart";
+
 const Job = ({ jobsData }) => {
+  const [numDisplayed, setNumDisplayed] = useState(4);
+
+  const handleShowAllJobs = () => {
+    setNumDisplayed(jobsData.length);
+  };
+
   return (
     <div>
       <div className="text-center">
@@ -12,9 +19,16 @@ const Job = ({ jobsData }) => {
       </div>
       <div>
         <div className="md:grid gap-10 m-7 grid-cols-2">
-          {jobsData.map((job) => (
+          {jobsData.slice(0, numDisplayed).map((job) => (
             <JobCart key={job.id} job={job}></JobCart>
           ))}
+        </div>
+        <div className="flex my-5 justify-center">
+          {numDisplayed < jobsData.length && (
+            <button className="btn" onClick={handleShowAllJobs}>
+              See All Jobs
+            </button>
+          )}
         </div>
       </div>
     </div>

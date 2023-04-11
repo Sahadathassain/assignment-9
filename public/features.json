@@ -1,6 +1,6 @@
 [
     {
-      "id": 1,
+      "id":"1" ,
       "company_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxfcm3yMuGyhXRAjMJdefTIhkGrCZXKnRm5w&usqp=CAU",
       "job_title": "Full stick Developer",
       "company_name": "Web Developer",
@@ -18,7 +18,7 @@
       }
     },
     {
-      "id": 2,
+      "id": "2",
       "company_logo": "https://e7.pngegg.com/pngimages/992/824/png-clipart-google-logo-google-search-doubleclick-end-year-text-logo.png",
       "job_title": "Data Analyst",
       "company_name": "Google LLC",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": 3,
+      "id": "3",
       "company_logo": "https://vectorseek.com/wp-content/uploads/2022/10/Netflix-Red-Logo-Vector-730x730.jpg",
       "job_title": "Sales Manager",
       "company_name": "Netflix",
@@ -54,7 +54,7 @@
       }
     },
     {
-      "id": 4,
+      "id": "4",
       "company_logo": "https://www.schmidtisblog.de/wp-content/uploads/2021/05/tesla-logo.webp",
       "job_title": "Software Engineer",
       "company_name": "Tesla",
@@ -72,7 +72,7 @@
       }
     },
     {
-      "id": 5,
+      "id": "5",
       "company_logo": "https://static.vecteezy.com/system/resources/thumbnails/020/726/668/small/youtube-logo-on-black-background-madrid-spain-2022-free-photo.jpg",
       "job_title": "YouTube self-employed",
       "company_name": "YouTube",
@@ -90,7 +90,7 @@
       }
     },
     {
-      "id": 6,
+      "id": "6",
       "company_logo": "https://logolook.net/wp-content/uploads/2021/06/Google-Logo-19981.png",
       "job_title": "Technical Database Engineer",
       "company_name": "Google LLC",

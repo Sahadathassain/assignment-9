@@ -6,17 +6,16 @@ import {
   BriefcaseIcon,
 } from "@heroicons/react/24/solid";
 
-
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <div className="bg-gradient-to-r from-green-100 via-lime-100 to-transparent px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+    <div className="bg-gradient-to-r from-green-100 via-lime-100 to-transparent px-4 py-5 mx-auto  md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div className="relative flex items-center justify-between">
         {/* Logo Section */}
         <Link to="/" className="inline-flex items-center">
           <BriefcaseIcon className="h-8 w-6 text-emerald-500" />
           <span className="ml-2 text-2xl font-bold tracking-wide text-gray-800">
-            Marketing Agency
+          Marketing Agency
           </span>
         </Link>
 
@@ -38,7 +37,7 @@ const Header = () => {
           </li>
           <li>
             <NavLink
-              to="/jobs"
+              to="/appliedJobs"
               className={({ isActive }) => (isActive ? "active" : "default")}>
               Applied Jobs
             </NavLink>
@@ -51,13 +50,12 @@ const Header = () => {
             </NavLink>
           </li>
         </ul>
-        <div className="bg-gradient-to-r hidden md:block from-orange-600 to-pink-600 text-black rounded-lg p-3 font-bold">
+        <div className="bg-gradient-to-r hidden md:block from-indigo-400 to-purple-600 text-white rounded-lg p-3 font-bold">
           <button>Star Applying</button>
         </div>
-       
 
         {/* Mobile Navbar Section */}
-        <div className="md:hidden">
+        <div className="lg:hidden">
           {/* Dropdown Open Button */}
           <button
             aria-label="Open Menu"
@@ -74,7 +72,7 @@ const Header = () => {
                     <Link to="/" className="inline-flex items-center">
                       <BriefcaseIcon className="h-6 w-6 text-emerald-500" />
                       <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                       Marketing Agency
+                      Marketing Agency
                       </span>
                     </Link>
                   </div>
@@ -106,7 +104,7 @@ const Header = () => {
                       </li>
                       <li>
                         <Link
-                          to="/jobs"
+                          to="/appliedJobs"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400">
                           Applied Jobs
                         </Link>
@@ -119,14 +117,11 @@ const Header = () => {
                         </Link>
                       </li>
                     </div>
-                    <div className="bg-gradient-to-r from-pink-600 to-orange-600 text-white rounded-lg px-3  flex justify-center items-center font-bold">
+                    <div className="bg-gradient-to-r from-indigo-400 to-purple-600 text-white rounded-lg px-3  flex justify-center items-center font-bold">
                       <button>Star Applying</button>
                     </div>
                   </ul>
                 </nav>
-
-              
-
               </div>
             </div>
           )}

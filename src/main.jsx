@@ -8,6 +8,8 @@ import ViewDetails from "./Components/Jobs/ViewDetails";
 import Blog from "./Components/Blogs/Blog";
 import Statistics from "./Components/Statistics/Statistics";
 import ErrorPage from "./Components/ErrorPage/ErrorPage";
+import AppliedJobs from "./Components/Jobs/AppiledJods";
+import { cartProductsLoader } from "./Loder/Loader";
 
 
 
@@ -25,7 +27,7 @@ const router = createBrowserRouter([
       },
 
       {
-        path: "/job/:jobId",
+        path: "/jobs/:jobId",
         element: <ViewDetails />,
       },
       {
@@ -35,7 +37,13 @@ const router = createBrowserRouter([
       {
         path:'/Statistics',
         element:<Statistics></Statistics>
-      }
+      },
+      
+{
+        path: "appliedJobs",
+        element: <AppliedJobs></AppliedJobs>,
+        loader: cartProductsLoader,
+      },
 
     ],
   },

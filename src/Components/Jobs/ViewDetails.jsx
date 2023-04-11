@@ -7,12 +7,14 @@ import {
   PhoneIcon,
   EnvelopeIcon,
 } from "@heroicons/react/24/solid";
+import { addToDb } from "../utilities/fakedb";
+
 
 const ViewDetails = () => {
   const locations = useLocation();
   const job = locations.state;
-  console.log(job);
   const {
+    id,
     job_description,
     job_responsibility,
     educational_requirements,
@@ -88,7 +90,9 @@ const ViewDetails = () => {
             </h4>
           </div>
         </div>
-        <button className="w-full mx-auto shadow-md my-3 bg-blue-400 hover:bg-blue-700 bg-gradient-to-r  from-indigo-400 to-purple-600 text-white rounded-lg p-3 font-bold">
+        <button
+          onClick={() => addToDb(id)}
+          className="w-full mx-auto shadow-md my-3 bg-blue-400 hover:bg-blue-500 bg-gradient-to-r  from-indigo-400 to-purple-600 text-white rounded-lg p-3 font-bold">
           Apply Now
         </button>
       </div>
