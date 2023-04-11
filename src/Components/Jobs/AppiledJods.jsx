@@ -7,7 +7,7 @@ const AppliedJobs = () => {
   const data = useLoaderData();
   console.log(data);
 
-  const [filterCatatony, setFilterCatatony] = useState(data);
+  const [filterCategory, setFilterCategory] = useState(data);
   const filterByRemote = data.filter(
     (remote) => remote.remote_or_onsite == "Remote"
   );
@@ -20,18 +20,18 @@ const AppliedJobs = () => {
       <div>
         <div className="text-end mx-10 my-6">
           <button
-            onClick={() => setFilterCatatony(filterByRemote)}
+            onClick={() => setFilterCategory(filterByRemote)}
             className="btn me-4">
             Filter Remote
           </button>
           <button
-            onClick={() => setFilterCatatony(filterByOnsite)}
+            onClick={() => setFilterCategory(filterByOnsite)}
             className="btn">
             Filter Online
           </button>
         </div>
-        {filterCatatony &&
-          filterCatatony.map((singleJob) => (
+        {filterCategory &&
+          filterCategory.map((singleJob) => (
             <div key={singleJob.id}>
               <div className="mx-4 my-5">
                 <div className="md:flex p-4 rounded-md bg-gradient-to-r bg-lime-400 justify-between">
