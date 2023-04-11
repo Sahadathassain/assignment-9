@@ -27,7 +27,7 @@ const AppliedJobs = () => {
           <button
             onClick={() => setFilterCategory(filterByOnsite)}
             className="btn">
-            Filter Online
+            Filter Onsite
           </button>
         </div>
         {filterCategory &&
