@@ -10,7 +10,7 @@
 
 - **If you click on see all jobs inside Home, you can see all featured jobs. Otherwise you will see 4.**
 
--**Fetured jobs If you click on the view details of any card, it will take you to the details of that card and if you click on the Apply Now button, that data will go to Applied jobs.** 
+- **Fetured jobs If you click on the view details of any card, it will take you to the details of that card and if you click on the Apply Now button, that data will go to Applied jobs.** 
 
--**If you want again, you can filter the data there. If you go to statistics again, you can see a recharts.**
+- **If you want again, you can filter the data there. If you go to statistics again, you can see a recharts.**
 - **If you go to the blog, you can see the block.**
